@@ -12,6 +12,7 @@ if __name__=="__main__":
     main()
 
 # RUNNING mypy
+# doc: https://mypy.readthedocs.io/en/stable/getting_started.html
 # mypy --strict chap2-objects-in-python/2.1.mypy-package-usage.py 
 # chap2-objects-in-python/2.1.mypy-package-usage.py:8: error: Function is missing a return type annotation
 # chap2-objects-in-python/2.1.mypy-package-usage.py:8: note: Use "-> None" if function does not return a value
