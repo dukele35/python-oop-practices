@@ -54,3 +54,4 @@ Thumbs.db
 
 # ignore cache
 .mypy_cache
+*__pycache__
