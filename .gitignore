@@ -50,7 +50,7 @@ Thumbs.db
 
 # ignore jupyter notebooks
 *.ipynb_checkpoints
-# *.ipynb
+*.ipynb
 
 # ignore cache
 .mypy_cache
