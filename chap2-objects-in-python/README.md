@@ -18,3 +18,4 @@
 result 
 ```
 - Such examples could be validated by `python -m doctest -v <python_file.py>` in the terminal.
+- [Example1](https://realpython.com/documenting-python-code/) & [Example2](https://www.programiz.com/python-programming/docstrings) for docstring documentation.
