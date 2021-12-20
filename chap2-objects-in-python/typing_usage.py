@@ -62,6 +62,8 @@ print (f3(False))                                   # valid
 print (f3(456))                                     # valid
 print (f3("love this"))                             # valid
 
+
+
 # 6 - Sequence
 
 # 7 - Tuple
