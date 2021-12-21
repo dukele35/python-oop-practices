@@ -36,31 +36,31 @@ z3 : Set[Union[str,int]]    = {"a",3}               # valid
 # defining complicated datatype scenario
 Vector = List[float]                                # valid
 
-def f1(v:Vector) -> Vector:                         # valid
+def func1(v:Vector) -> Vector:                      # valid
     return [i/4 for i in v]
 
-print (f1([1,2,3]))                                 # valid
+print (func1([1,2,3]))                              # valid
 
 
 ########################
 ##### 5 - Optional #####
 ########################
-def f2(xyz: Optional[bool] = False) -> int:         # valid          
+def func2(xyz: Optional[bool] = False) -> int:      # valid          
     return 3
 
-print (f2(False))                                   # valid
-print (f2())                                        # valid
+print (func2(False))                                # valid
+print (func2())                                     # valid
 
 
 ###################
 ##### 6 - Any #####
 ###################
-def f3(abc: Any) -> str:                            # valid          
+def func3(abc: Any) -> str:                        # valid          
     return "this accepts any types"
 
-print (f3(False))                                   # valid
-print (f3(456))                                     # valid
-print (f3("love this"))                             # valid
+print (func3(False))                               # valid
+print (func3(456))                                 # valid
+print (func3("love this"))                         # valid
 
 
 
