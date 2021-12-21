@@ -50,6 +50,8 @@ def func2(xyz: Optional[bool] = False) -> int:      # valid
 
 print (func2(False))                                # valid
 print (func2())                                     # valid
+print (func2("abc"))                                # invalid --> parameter should be Boolean or None
+
 
 
 ###################
