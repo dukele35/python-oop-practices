@@ -25,3 +25,4 @@ result
 - Please refer to [typing_usage.py](https://github.com/dukele35/python-oop-practices/blob/main/chap2-objects-in-python/typing_usage.py).
 - There are `#valid` as well as `#invalid` in the file as demonstrated for correct/incorrect examples of using [typing](https://docs.python.org/3/library/typing.html) to provide hints for variables, functions as well as functions' parameters. 
 - To check the validity of the typing usage, please run `mypy --strict <python_file.py>`.
+- Please use this [video](https://www.youtube.com/watch?v=QORvB-_mbZ0) as the reference for this section.
