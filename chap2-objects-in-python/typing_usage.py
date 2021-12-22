@@ -1,6 +1,6 @@
 from typing import  List, Dict, Set, \
                     Optional, Any, Sequence, \
-                    Tuple, Callable, TypeVar, Union
+                    Callable, TypeVar, Union
 
 # ####################
 # ##### 1 - List #####
@@ -68,19 +68,28 @@ from typing import  List, Dict, Set, \
 
 
 
+# ########################
+# ##### 7 - Sequence #####
+# ########################
+# def func4(seq: Sequence[str]) -> None:              # valid
+#     pass
+
+# func4(["a","b","c"])                                # valid
+# func4(("a","b","c"))                                # valid
+# func4("a, b, c")                                    # valid
+# func4({"a","b","c"})                                # invalid -> the input can't be indexed
+
+
 ########################
-##### 7 - Sequence #####
+##### 8 - Callable #####
 ########################
-def func4(seq: Sequence[str]) -> None:
-    pass
+def add(x:int, y:int)->int:
+    return x+y
 
-func4(["a","b","c"])
-func4(("a","b","c"))
-func4("a, b, c")
-func4({"a","b","c"})
+def func5(inp: Callable[[int,int],int])->int:
+    return inp(3,5)
 
-# 7 - Tuple
+print(func5(add))
 
-# 8 - Callable
 
 # 9 - TypeVar
