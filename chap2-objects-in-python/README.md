@@ -6,7 +6,7 @@
 - the usage: using `mypy --strict <python_file.py>` in the terminal.
 - [Example](http://mypy-lang.org/).
 
-## 2. Notices regarding Python Class ##
+## 2. Doctest for Python Class ##
 
 - For this, please refer to [points.py](https://github.com/dukele35/python-oop-practices/blob/main/chap2-objects-in-python/points.py).
 - Docstring is essential for writing python classes, methods, functions, etc. Please refer to the python file above as the blue-print or conventions for writing python doctring. 
@@ -19,3 +19,9 @@ result
 ```
 - Such examples could be validated by `python -m doctest -v <python_file.py>` in the terminal.
 - [Example1](https://realpython.com/documenting-python-code/) & [Example2](https://www.programiz.com/python-programming/docstrings) for docstring documentation.
+
+## 3. Useful hints from Python Typing ##
+
+- Please refer to [typing_usage.py](https://github.com/dukele35/python-oop-practices/blob/main/chap2-objects-in-python/typing_usage.py).
+- There are `#valid` as well as `#invalid` in the file as demonstrated for correct/incorrect examples of using [typing](https://docs.python.org/3/library/typing.html) to provide hints for variables, functions as well as functions' parameters. 
+- To check the validity of the typing usage, please run `mypy --strict <python_file.py>`.
