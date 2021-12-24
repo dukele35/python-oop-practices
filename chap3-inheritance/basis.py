@@ -9,3 +9,10 @@ class Contact:
        
    def __repr__(self) -> str:
        return (f"{self.__class__.__name__}("f"{self.name!r}, {self.email!r}"f")")
+
+class Supplier(Contact):
+   def order(self, order: "Order") -> None:
+       print(
+           "If this were a real system we would send "
+           f"'{order}' order to '{self.name}'"
+       )
