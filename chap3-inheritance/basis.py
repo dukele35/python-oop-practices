@@ -28,6 +28,10 @@ class Supplier(Contact):
     >>> s2 = Supplier("sup2", "sup2@email.com")
     >>> print (Supplier.all_contacts)
     [Contact(duke, duke@email.com), Contact(mike, mike@email.com), Supplier(sup1, sup1@email.com), Supplier(sup2, sup2@email.com)]
+    >>> s1.order(order='Apple')
+    If this were a real system we would send 'Apple' order to 'sup1'
+    >>> s2.order(order='Orange')
+    If this were a real system we would send 'Orange' order to 'sup2'
     """
 
     def order(self, order: "Order") -> None:
