@@ -1,8 +1,8 @@
-# Chapter 3: Inheritance # 
+# Chapter 3: Inheritance #
 
-## 1. 
+## 1.
 
-## 2. 
+## 2.
 
 ## OTHER NOTICES
 ### __repr__ method
