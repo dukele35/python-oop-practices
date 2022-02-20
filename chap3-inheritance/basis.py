@@ -41,18 +41,3 @@ class Supplier(Contact):
 
     def order(self, order: "Order") -> None:
         print("If this were a real system we would send " f"'{order}' order to '{self.name}'")
-
-
-def main() -> None:
-    c1 = Contact("duke", "duke@email.com")
-    c2 = Contact("mike", "mike@email.com")
-    s1 = Supplier("sup1", "sup1@email.com")
-    s2 = Supplier("sup2", "sup2@email.com")
-    print(Contact.all_contacts)
-    print(Supplier.all_contacts)
-    print(s1.order("Apple"))
-    print(s2.order("Orange"))
-
-
-if __name__ == "__main__":
-    main()
