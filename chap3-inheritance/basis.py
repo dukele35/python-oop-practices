@@ -50,8 +50,8 @@ def main() -> None:
     s2 = Supplier("sup2", "sup2@email.com")
     print(Contact.all_contacts)
     print(Supplier.all_contacts)
-    s1.order("Apple")
-    s2.order("Orange")
+    print(s1.order("Apple"))
+    print(s2.order("Orange"))
 
 
 if __name__ == "__main__":
